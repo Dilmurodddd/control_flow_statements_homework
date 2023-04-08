@@ -13,4 +13,20 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    p=0
+    n=0
+    if a>=0:
+        p=p+1
+    if b>=0:
+        p=p+1
+    if c>=0:
+        p=p+1
+    if a<0:
+        n=n+1
+    if b<0:
+        n=n+1
+    if c<0:
+        n=n+1
+
+    return p, n
+print(main(1,-2,3))
